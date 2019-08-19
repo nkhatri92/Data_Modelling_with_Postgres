@@ -29,13 +29,13 @@ Python3 is recommended as the environment. The most convenient way to install py
 ## How to run
 From the terminal with current directory set to project directory, run following command to complete initial setup by creates database and tables with appropriate schema in Postgres.
 
-**python create_tables.py  
+**python create_tables.py** 
 
 Output: Script writes "Tables dropped successfully" and "Tables created successfully" if all tables were dropped and created without errors.
 
 Run following command to execute python script that extract data related to songs and user activity logs from JSON files in data directory, does transformations and loads it into Postgres database for further analysis.
 
-**python etl.py  
+**python etl.py**  
 
 Output: Script crawls through all the data directories, tells how many files it has to process, and writes to console the progress of the script as it processes them through. After successfully processing through a directory, script summarised the results:
 
