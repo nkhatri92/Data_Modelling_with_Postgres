@@ -46,6 +46,10 @@ Output: Script crawls through all the data directories, tells how many files it 
 ## Database Schema
 Following is ER Diagram that shows the star schema used to organize the data in different tables.
 
+![SparkifyDB schema as ER Diagram](./Postgresql_final.png)
+
+_*SparkifyDB schema as ER Diagram.*_
+
 ## Code organisation
 The ETL code is modularised into separate files.
 -	**sql_queries.py** contains SQL query statements for creating new tables with appropriate schema, inserting data into tables.
