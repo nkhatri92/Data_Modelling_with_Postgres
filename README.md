@@ -9,6 +9,7 @@ A music app startup Sparkify needs to analyze the data it has been collecting on
 Data set is a set of files in JSON format and contains two parts:
 -	./data/song_data: static data about artists and songs
 -	./data/log_data: event data of service usage e.g. who listened what song, when, where, and with which client
+
 Below, some figures about the data set (results after running the etl.py):
 -	./data/song_data: 71 files
 -	./data/log_data: 30 files
